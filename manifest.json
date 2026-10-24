@@ -1,13 +1,23 @@
 {
-  "background_color": "#ffffff",
-  "description": "J&amp;A Mídias: guia comercial de Joinville, Nova Onda Joinville ao vivo e anúncios.",
-  "dir": "ltr",
+  "name": "Guia Comercial & Rádio",
+  "short_name": "Guia Comercial",
+  "description": "Guia comercial de Joinville, Nova Onda Joinville ao vivo e anúncios.",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "name": "J&amp;A_Midias",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "J&amp;A_Midias",
-  "start_url": "/",
-  "theme_color": "#0B5563",
-  "id": "guia-comercial-radio"
+  "background_color": "#0B1220",
+  "theme_color": "#0B1220",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
